@@ -16,14 +16,14 @@ enum class Wariors
 struct Warior
 {
 	std::string wariorName;
-	Wariors wariorType;					// Race
+	Wariors wariorType;			// Race
 
-	int wariorHelth			= 100;
+	int wariorHelth		= 100;
 	short wariorStrength	= 10;
 	short mwariorAgility	= 10;
 	short wariorIntellect	= 1;
-	short wariorMana		= 100;	
-	short wariorSpeed		= 100;
+	short wariorMana	= 100;	
+	short wariorSpeed	= 100;
 };
 
 #endif
