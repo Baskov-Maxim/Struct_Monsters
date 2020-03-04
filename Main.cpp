@@ -8,14 +8,14 @@
 int main()
 {
 	srand(time(NULL));
-
+	// Enter fields for Hero & Monster
 	std::cout << "HERO:\n";
 	Warior hero = get_warior_characteristic();
 	std::cout << "Monster:\n";
 	Warior monster = get_warior_characteristic();
 
 	std::cout << std::endl;
-
+	// Print fields Hero & Monster
 	std::cout << "Print HERO:\n";
 	ptint_warior_characteristic(hero);
 
